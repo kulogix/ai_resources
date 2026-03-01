@@ -1,0 +1,126 @@
+{
+  "version": 5,
+  "generator": "model-packager v4.5.0",
+  "created": "2026-03-01T19:45:05Z",
+  "chunk_size": 19922944,
+  "files": {
+    "config.json": {
+      "size": 954,
+      "sha256": "db095dbbd83bc55c03f7941bbecdb8d282970de00eb6708efa17105beeb848d2",
+      "cdn_file": "config.json",
+      "shards": null
+    },
+    "onnx/model_quantized.onnx": {
+      "size": 179044246,
+      "sha256": "041b5f9e43422b864b724cafe699f4b8a0a75426fa6db44867a0e1a57cda12e5",
+      "cdn_file": null,
+      "shards": [
+        {
+          "file": "model_quantized.onnx.shard.000",
+          "offset": 0,
+          "size": 19922944,
+          "sha256": "02cf09d49d030cd00916b025a68bde1541b8767f15d25910231839aea2d5042a"
+        },
+        {
+          "file": "model_quantized.onnx.shard.001",
+          "offset": 19922944,
+          "size": 19922944,
+          "sha256": "180020aec284b0129ccc087785c4a4a8e323367a0cbf70c49b941bad3ceb0e25"
+        },
+        {
+          "file": "model_quantized.onnx.shard.002",
+          "offset": 39845888,
+          "size": 19922944,
+          "sha256": "c66ed972153c37d95d045bb384593c8dc4a31a4905659f414f07c6ff4ca04131"
+        },
+        {
+          "file": "model_quantized.onnx.shard.003",
+          "offset": 59768832,
+          "size": 19922944,
+          "sha256": "7e24a2b7849d4ae586487285619075a2f2c2abfad55fecee2cc07a91e065d9ac"
+        },
+        {
+          "file": "model_quantized.onnx.shard.004",
+          "offset": 79691776,
+          "size": 19922944,
+          "sha256": "51864d743e1d422a005ee87ae381827dd388e0a8cd4fa83d6f96609554b98201"
+        },
+        {
+          "file": "model_quantized.onnx.shard.005",
+          "offset": 99614720,
+          "size": 19922944,
+          "sha256": "37590fc5cf7561ad42994ebeffd06d289394de39e8ae15562fb1bef94af80e66"
+        },
+        {
+          "file": "model_quantized.onnx.shard.006",
+          "offset": 119537664,
+          "size": 19922944,
+          "sha256": "9ac0c4abca9e3d2e54eb0568fc0c45f6ed3e0f732665c8e2d18ee87ad11f0e91"
+        },
+        {
+          "file": "model_quantized.onnx.shard.007",
+          "offset": 139460608,
+          "size": 19922944,
+          "sha256": "d4359da86ab331cdca8331dfc1f2dd8aadfab09017f0f127309644c157cacc22"
+        },
+        {
+          "file": "model_quantized.onnx.shard.008",
+          "offset": 159383552,
+          "size": 19660694,
+          "sha256": "444553f344b3cb2501c1292d18e93c5021f33bc0605ddefa96c392de8323ee0e"
+        }
+      ]
+    },
+    "quantize_config.json": {
+      "size": 310,
+      "sha256": "9b60b5877b9a1687b5cddbc06124a974cb7536af9dbf5295279bf73c3823170c",
+      "cdn_file": "quantize_config.json",
+      "shards": null
+    },
+    "README.md": {
+      "size": 425,
+      "sha256": "db12b6e7e2a85dd033d695c793c6d89b52dd79edcd886a9b3b669bb1ed0ba550",
+      "cdn_file": "README.md",
+      "shards": null
+    },
+    "special_tokens_map.json": {
+      "size": 695,
+      "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+      "cdn_file": "special_tokens_map.json",
+      "shards": null
+    },
+    "tokenizer_config.json": {
+      "size": 1413,
+      "sha256": "251a4f7a97f9c56f558fff88d9aac0142a23ae51d8ee50b63527ab6c6b4915bd",
+      "cdn_file": "tokenizer_config.json",
+      "shards": null
+    },
+    "tokenizer.json": {
+      "size": 2919627,
+      "sha256": "4e8d2533b6e39afe137ac1ff84390ef303f71f9c257aab2df09f4c6a62d08bf3",
+      "cdn_file": "tokenizer.json",
+      "shards": null
+    },
+    "vocab.txt": {
+      "size": 995526,
+      "sha256": "fe0fda7c425b48c516fc8f160d594c8022a0808447475c1a7c6d6479763f310c",
+      "cdn_file": "vocab.txt",
+      "shards": null
+    }
+  },
+  "manifests": {
+    "quantized": {
+      "files": [
+        "README.md",
+        "config.json",
+        "onnx/model_quantized.onnx",
+        "quantize_config.json",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "size": 182963196
+    }
+  }
+}
